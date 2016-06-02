@@ -1,0 +1,10 @@
+.jumbotron{
+	background: url('img/danwater.jpg');
+	background-size: cover;
+}
+#title{
+	color: white;
+}
+.center{
+	text-align: center;
+}

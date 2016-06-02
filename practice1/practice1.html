@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="shortcut icon" href="img/L_icon.ico">
+    <title>淡水介紹</title>
+    <!-- bootstrap css -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="practice1.css">
+  </head>
+  <body  data-spy="scroll" data-target=".navbar" data-offset="100">
+  <!-- navbar -->
+    <nav  class="navbar navbar-fixed-top navbar-dark bg-inverse">
+    <div class="container">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home" id="navHome">淡水</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#oldStreet" id="navOldStreet">介紹</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#view" id="navView">景點</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#food" id="navFood">美食</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule" id="navSchedule">推薦行程</a>
+        </li>
+      </ul>
+      <a class="navbar-brand pull-sm-right hidden-xs-down m-r-0" href="#">Leo</a>
+      </div>
+    </nav>
+  <!-- navbar -->
+  <!-- jumbotron -->
+    <div id="home" class="jumbotron jumbotron-fluid">
+      <div class="container text-center text-sm-center p-t-3">
+        <h1 id="title" class="display-2">淡水</h1>
+        <p class="lead text-muted">淡水是一個迷人的城鎮</p>
+
+        <div class="btn-group m-y-3" role="group" aria-label="Basic example">
+          <!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Regiter now</button> -->
+          <a type="button" class="btn btn-secondary btn-lg "  data-toggle="modal" data-target="#mapModal" href="#map" id="navMap">地圖</a>
+        </div>
+      </div>
+    </div>
+
+  <!-- jumbotron -->
+    <div class="container" id="oldStreet">
+      <div class="row">
+        <div class="col-sm-4"> <!-- col-sm-push-4"> -->
+        <h3 class="m-b-2">基本介紹</h3>
+        <img class="m-b-1 img-fluid img-rounded hidden-xs-down" src="img/danwatermrt.jpg" alt="三峽老街">
+        <p>淡水區位於台灣新北市西北沿海以及淡水河的出海口北側，北鄰三芝區，南鄰台北市北投區，西濱台灣海峽，西南與八里區以淡水河一水之隔。河光山水、風景秀麗，自古為台灣八景之一，昔日並有「東方威尼斯」之稱。在歷史上曾經是臺灣第一大港，也是西方文明在臺灣北部散播的起點。</p>
+        </div>
+        <div class="col-sm-4"> <!-- col-sm-pull-4"> -->
+        <h3 class="m-b-2">歷史發展</h3>
+        <p>淡水一詞在昔日是淡水河口和淡水港的總稱，甚至是包含整個台灣北部，而滬尾一詞則是一個平埔聚落的名稱，音為『Hoba』、意為河口，漢人將它翻譯為滬尾，日治時期淡水以取代滬尾成為地區的代稱；淡水從7000年前即是東南亞海渡的中繼站，因此一直有居民移入淡水，居住在此的大部份是凱達格蘭平埔族，當時中國和日本的船隻只要停靠淡水就可和平埔族做貿易，到了16世紀西班牙人覬覦台灣的地理位置，佔領了北台灣、建造了聖多明哥城，1642年荷蘭人北上驅趕西班牙人並招集漢人拓墾，利用淡水為港吼與中國互相往來；1860年天津條約淡水為開放港口之一，並徵收關稅，雞籠也成為淡水的外口，這兩個地方變成為外國商人聚集之處，逐漸地各國商行到淡水貿易，成為西方文化當入台灣的窗口；日據時代由於河道逐漸淤淺，因此日人便將重心轉至基隆港，但是在當時完備的公共建設讓淡水港還有空間發展，成為鄰近地區的行政文化中心。</p>
+        </div>
+        <div class="col-sm-4">
+        <h3 class="m-b-2">交通資訊</h3>
+        <h5 class="center">【大眾運輸】</h5>
+        <p class="center">搭乘捷運淡水線至淡水站下車，步行即可抵達</p>
+        <h5 class="center">【自行開車】</h5>
+        <ol>
+          <li class="m-b-1">大台北地區<br>→ 可自重慶交流道行2乙省道 <br>→ 接2號省道</li>
+          <li class="m-b-1">經基隆市往西北 <br>→ 接2號省道或下八堵交流道<br>→ 走麥金公路直接接上2號省道</li>
+          <li class="m-b-1">由陽明山區循大屯自然公園指標<br>→ 走台北縣道101號<br>→ 接2號省道</li>
+          <li class="m-b-1">中南部的遊客 <br>→ 可自五股交流道走107號縣道 <br>→ 經竹圍至淡水 <br>→ 再沿登輝大道接上2號省道</li>
+          
+        </ol>
+        </div>
+      </div>
+
+      <h1 class="display-4 text-xs-center m-y-3 text-muted" id="view">景點介紹</h1>
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/redcastle.jpg" alt="紅毛城">
+              <div class="card-block">
+                <div class="center">
+                <a class="btn btn-info" data-toggle="collapse" href="#view1" aria-expanded="false" aria-controls="collapseExample">
+                  紅毛城
+                </a>
+                </div>
+                <div class="collapse" id="view1">
+                  <!-- <div class="card card-block"> -->
+                  <div class="m-t-1">
+                    紅毛城，古稱「安東尼堡」，位於台灣新北市淡水區。最早建城是在1628年佔領台灣北部的西班牙人所興建的『聖多明哥城』，但後來聖多明哥城遭到摧毀，1644年荷蘭人於聖多明哥城原址附近予以重建，又命名為「聖 安東尼堡」，1867年以後曾經由英國政府長期租用至1972年，作為是英國領事館的辦公地點，一直到1980年，該城的產權才轉到中華民國政府手中。紅毛城不但是台灣現存最古老的建築之一，同時也是內政部所頒訂的國定古蹟。
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/fishmanport.jpg" alt="漁人碼頭">
+              <div class="card-block">
+                <div class="center">
+                <a class="btn btn-info" data-toggle="collapse" href="#view2" aria-expanded="false" aria-controls="collapseExample">
+                  漁人碼頭
+                </a>
+                </div>
+                <div class="collapse" id="view2">
+                  <!-- <div class="card card-block"> -->
+                  <div class="m-t-1">
+                    淡水漁人碼頭，法定名稱淡水第二漁港，是一個位於台灣新北市淡水區西端具有觀光景點的漁港，位在淡水河出海口東岸，是北部早期重要的漁業港口，鄰近沙崙海水浴場。在臺北縣政府（今新北市政府）和行政院農業委員會的「漁港功能多元化」計畫下，漁人碼頭於2001年3月正式完工（第一期工程）並對外開放，以其夕陽景色及新鮮的漁貨聞名，目前除了觀光休閒設施之外，仍然保有其漁業港口的功能。
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/danwaterstreet.jpg" alt="Card image cap">
+              <div class="card-block">
+                <div class="center">
+                <a class="btn btn-info" data-toggle="collapse" href="#view3" aria-expanded="false" aria-controls="collapseExample">
+                  淡水老街
+                </a>
+                </div>
+                <div class="collapse" id="view3">
+                  <!-- <div class="card card-block"> -->
+                  <div class="m-t-1">
+                    淡水老街位於新北市淡水區中正路、重建街、清水街等一帶，由於交通方便，因此淡水老街每到假日總是人山人海，淡水老街也集美食、小吃、老街為一身，近年來更因不少古董店及民藝品店進駐，也營造出民俗色彩與懷舊風味。
+                    淡水港周邊是北部最早開發的地區之一，但在日據時代以後漸漸淤塞，基隆港的興起更讓淡水港相形失色，於是沒落成一座地方小漁港；可是沒有影響到淡水的發展，反而掀起了一股觀光旅遊熱潮。在現今科技商業發達的社會，依然可在淡水老街上見到許多的古早式磚造店舖，座落期間的數座老廟宇，反映出本地的開發史。  
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="display-4 text-xs-center m-y-3 text-muted" id="food">美食推薦</h1>
+        <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/agay.jpg" alt="Card image cap">
+            <div class="card-block">
+              <div class="center">
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                  淡水阿給
+              </a>
+              </div>
+              <div class="collapse" id="collapse1">
+                  <!-- <div class="card card-block"> -->
+                  <div class="m-t-1">
+                    &emsp;&emsp;淡水阿給，四方型油豆腐，頭頂蓋片魚漿，是淡水傳統特色小吃之一。作法源自1965年，楊鄭錦文女士所發明，她在淡水國中旁賣吃的，因為捨不得食材浪費，有天在菜市場看到一位老先生賣一種以油豆腐包餡的點心得到靈感，返家後開始研究，將粉絲和絞肉作餡，放入挖空的油豆腐內而成。<br>
+              　　時至今日，淡水賣阿給的店家很多，而屬於淡水記憶的則是位在真理街上的阿給店。座落於真理街上淡水國中旁的矮房子是最早的創始店，地點非常不顯眼，後因淡水國中校區擴建，而將校門外牆區的這些老舊矮房子全數拆遷，於是淡水阿給老店便搬遷至真理街6-1號。而現在的阿給，也不是用剩下的食材來製作，而是新鮮料理。
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="img/ironegg.png" alt="Card image cap">
+              <div class="card-block">
+                <div class="center">
+                <a class="btn btn-primary" data-toggle="collapse" href="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                  阿婆鐵蛋
+                </a>
+                </div>
+                <div class="collapse" id="collapse2">
+                  <!-- <div class="card card-block"> -->
+                  <div class="m-t-1">
+                    已有三十餘年歷史的『阿婆鐵蛋』，創始人為楊碧雲女士；當初六○年代原是經營自助餐以及麵店，那時候正在滷蛋，因為過於忙碌無意間滷得太久，沒想到硬硬的滷蛋讓許多客人吃了之後都讚不絕口；這就是鐵蛋誕生的故事喔！淡水的『阿婆鐵蛋』是鐵做的嗎？答案當然不是；『鐵蛋』是淡水特有的名產，又名石頭蛋，而當您來到淡水沒來吃到阿婆鐵蛋，那就太可惜了！『阿婆鐵蛋』是淡水真正的鐵蛋創始者，其位於中正路老街轉往渡船碼頭的轉角處，十分好找，因此除了平時的遊客外，每逢假日來往的遊客更是絡繹不絕；門前斗大的『阿婆鐵蛋』招牌也成為遊客來淡水留影的最佳景點之一喔。
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+<!-- -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <img class="card-img-top img-fluid" src="img/fishsu.jpg" alt="Card image cap">
+            <div class="card-block">
+              <div class="center">
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapse3" aria-expanded="false" aria-controls="collapseExample">
+                  淡水魚酥
+              </a>
+              </div>
+                <div class="collapse" id="collapse3">
+                  <!-- <div class="card card-block"> -->
+                  <div class="m-t-1">
+                    魚酥是淡水特色小吃之一。因為當時淡水港漁獲實在是太多了，漁船回來幾乎都是滿載豐收，如何賣魚對船東來講，變成一個問題。往往船頭家要僱人去打鑼，告知淡水街頭巷尾三姑六婆，河邊漁船豐收回來了，新鮮又便宜的魚獲很多，大家趕快去買。假如能夠順利賣完最好，一旦賣不完，最後就要以很低價賣給養鴨人家。所以為了不浪費多餘的漁獲，就把這些當季盛產新鮮小魚，去頭、去內臟、洗乾淨，連骨帶肉一起絞碎，打成較硬魚漿，切成條狀，油炸，這樣就變成一種又香又脆又富含鈣質的新產品「淡水魚酥」，把它包裝在透明塑膠袋，可以保存很久，不減它的美味。由於顧客的支持，魚酥已是淡水有名且具代表性的名產之一，在淡水，光是賣魚酥，在中正老街上有有10多攤，受人喜愛的程度可見一般。
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+        </div>
+
+        <div class="col-md-6">
+        </div>
+
+        <div class="col-md-6">
+        </div>
+      </div><!-- /speakers -->
+
+
+      <h1 id="schedule" class="display-4 text-xs-center m-y-3 text-muted">推薦行程</h1>
+      
+      <ul class="list-group">
+        <li class="list-group-item">
+          <h4 class="list-group-item-heading">抵達淡水</h4>
+          <span class="label label-default label-pill pull-xs-right">11:30am</span>
+          <p class="text-muted m-b-0">建議搭捷運前往淡水捷運站</p>
+        </li>
+        <li class="list-group-item">
+          <h4 class="list-group-item-heading">午餐時間</h4>
+          <span class="label label-default label-pill pull-xs-right">11:30 - 13:00 pm</span>
+          <p class="text-muted m-b-0">推薦：淡水老牌阿給</p>
+        </li>
+        <li class="list-group-item">
+          <h4 class="list-group-item-heading">淡江大學</h4>
+          <span class="label label-default label-pill pull-xs-right">13:00 - 14:30 pm</span>
+          <p class="text-muted m-b-0">有電影「不能說的秘密」的場景喔！</p>
+        </li>
+        <li class="list-group-item">
+          <h4 class="list-group-item-heading">淡江紅毛城</h4>
+          <span class="label label-default label-pill pull-xs-right">14:30 - 16:00 pm</span>
+          <p class="text-muted m-b-0">有四百多年歷史的古蹟建築</p>
+        </li>
+        <li class="list-group-item">
+          <h4 class="list-group-item-heading">漁人碼頭</h4>
+          <span class="label label-default label-pill pull-xs-right">16:00 - 17:30 pm</span>
+          <p class="text-muted m-b-0">有美麗的情人橋～</p>
+        </li>
+        <li class="list-group-item">
+          <h4 class="list-group-item-heading">淡水老街</h4>
+          <span class="label label-default label-pill pull-xs-right">17:30 - 19:00 pm</span>
+          <p class="text-muted m-b-0">晚餐時間及購物時間</p>
+        </li>
+        <li class="list-group-item">
+          <h4 class="list-group-item-heading">回家</h4>
+          <span class="label label-default label-pill pull-xs-right">19:00pm</span>
+          <p class="text-muted m-b-0">啟程回家休息啦</p>
+        </li>
+      </ul>
+
+      <hr class="m-y-3">
+
+      <!-- footer -->
+      <div class="row p-y-1">
+        <div class="center">
+          <small>&copy; 2016  劉皪</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- modal -->
+<!--<div id="register" class="modal fade">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
+             <form>
+                <h5 class="m-b-2">問卷</h5>
+                <fieldset class="form-group">
+                  <label for="name">姓名</label>
+                  <input type="text" class="form-control" id="name">
+                </fieldset>
+                <fieldset class="form-group">
+                  <label for="email">電子信箱</label>
+                  <input type="text" class="form-control" id="email" placeholder="example@gmail.com">
+                </fieldset>
+                <fieldset class="form-group">
+                  <label for="place">喜歡的老街</label>
+                  <select class="c-select form-control" name="user-role" id="role">
+                    <option value="three">三峽老街</option>
+                    <option value="shillin">士林夜市</option>
+                    <option value="pinriver">平溪夜市</option>
+                    <option>淡水老街</option>
+                  </select>
+                </fieldset>
+                <hr class="m-y-2">
+                <h5 class="m-b-2">^___^</h5>
+                <div>
+                  <label class="c-input c-checkbox">
+                    <input type="checkbox">
+                    <span class="c-indicator"></span>
+                    已閱讀
+                  </label>
+                </div>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
+ -->
+    <!-- 地圖 -->
+    <div class="modal fade" id="mapModal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title">地圖</h4>
+          </div>
+          <div class="modal-body">
+            <div class="center">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14443.274933883!2d121.42971522720748!3d25.17559776196391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a5511f7d3877%3A0xe3ea2c7d19708acd!2zMjUx5paw5YyX5biC5reh5rC05Y2A5reh5rC0!5e0!3m2!1szh-TW!2stw!4v1464752342969" width="95%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- jQuery first, then bootstrap js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+    <!-- <link rel="javascript" type="text/javascript" href="practice1.js"> -->
+    <script type="text/javascript" src="practice1.js"></script>
+  </body>
+</html>
