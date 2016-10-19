@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>svg練習</title>
+    <script type="text/javascript" src="Snap.svg-0.4.1/dist/snap.svg-min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <svg id='roadMap' width='500px' height='500px' viewBox='0 0 500 500'>
+        <g id='map'>
+            <g id='bg'>
+                <rect fill="#6EC3EB" width="500" height="500">
+            </g>
+            <g id='land'>
+            	<!-- <path fill="#D8D8DA" d="M 50 150 C 50 0 250 0 250 150 H 500"/> -->
+                <path fill="#D8D8DA" d="M 0 0 v 225 C 60 200 80 190 130 200 L 150 130 L 150 80 L 180 40 L 190 0 H0 z"/>
+                <path fill="#D8D8DA" d="M 200 0 L 190 45 L 160 85 L 160 130 L 130 250 L 145 260  L 125 290 L 140 300 L 150 285 L 165 295 L 150 320 L 170 295 L 175 260 L 185 250 L 235 300 L 205 330 L 195 320 L 190 325 L 195 335 L 170 360 L 150 340 L 145 345 L 160 360 L 115 410 L 155 450 L 270 340 C 350 390 400 400 500 410 L 500 0 "/>
+            </g>
+            <g id='road'>
+            	<!-- <polygon fill="#959899" points="0,215 130,190 500,400"/> -->
+            	<path stroke="#959899" stroke-width="8" fill="none" d="M 0 210 C 60 185 80 175 130 185 C 190 200 250 380 500 395"/>
+            	<path stroke="#959899" stroke-width="8" fill="none" d="M 380 -10 C 360 200 300 280 160 400"/>
+            	<path stroke="#959899" stroke-width="5" fill="none" d="M 100 0 L 155 80 L 360 120"/>
+            	<path stroke="#959899" stroke-width="5" fill="none" d="M 200 150 L 340 180"/>
+            	<path stroke="#959899" stroke-width="5" fill="none" d="M 490 0 S 470 200 340 180 "/>
+            	<path stroke="#959899" stroke-width="5" fill="none" d="M 500 250 L 400 170"/>
+            	<path stroke="#959899" stroke-width="5" fill="none" d="M 470 80 L 370 80"/>
+            </g>
+            <g id='router'>
+            	<path stroke="#000000" stroke-width="2" fill="none" d="M 370 160 L 370 180 S 360 183 340 180 C 270 330 170 380 150 413"/>
+            </g>
+        </g>
+        <!-- <path id="route" fill="none" stroke="#000000" d="M 122 404 1125,-108.5 c0,0,40,-34,50,-159 158,12.5 L355,120"/> -->
+        </g>
+    </svg>
+</body>
+
+</html>
